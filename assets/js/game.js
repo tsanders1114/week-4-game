@@ -10,8 +10,13 @@ var resetAndStart = function(){
 
 	$(".crystals").empty();
 
-	var images=["Crystal1.jpg","Crystal2.jpg","Crystal3.jpg","Crystal4.jpg",];
-
+	var images=[
+		"Crystal1.jpg",
+		"Crystal2.jpg",
+		"Crystal3.jpg",
+		"Crystal4.jpg",
+		];
+//
 randomNumber= Math.floor(Math.random() * 69) + 30;
 
 	
@@ -28,9 +33,8 @@ randomNumber= Math.floor(Math.random() * 69) + 30;
 			crystal.attr({
 				"class": "crystal",
 				"data-random": random
-			});
 
-			crystal.html(random);
+			});
 
 		$(".crystals").append(crystal);
 

@@ -1,4 +1,5 @@
 
+
 .crystals{
 	display: flex;
 	justify-content: space-around;
@@ -11,7 +12,5 @@
 	width:200px;
 }
 
-.img{
-	width: 5px
-	height:10px;
-}
+
+
